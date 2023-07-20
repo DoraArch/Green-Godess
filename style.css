@@ -1011,7 +1011,7 @@ font-weight: bold;
 
 @media(max-width:1000px){
     html{
-        font-size:55%
+        font-size:100%
     }
     header{
         padding: 100px;
@@ -1075,13 +1075,17 @@ ul{
     text-align: center;
     transition: all .5s;
 }
+menu{
+ width: 100%;
+ font-size: 50%;
+}
 menu ul li{
     display: block;
     margin: 50px 0;
-    line-height: 30px;
+    line-height: 80px;
 }
 menu ul li a{
-    font-size: 20px;
+    font-size: 70px;
 }
 a:hover,a.active{
     background: none;
