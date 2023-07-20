@@ -87,6 +87,7 @@ header .navbar .checkbtn{
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    display: none;
 }
 header.menu{
     width: 100px;
