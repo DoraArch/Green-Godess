@@ -79,14 +79,13 @@ header #check{
     display: none;
 }
 
-header .navbar .checkbtn{
+header .checkbtn{
     font-size: 30px;
     color: black;
     float: left;
     line-height: 80px;
     margin-right: 40px;
     cursor: pointer;
-    display: none;
     display: none;
 }
 header.menu{
@@ -1073,7 +1072,7 @@ html{
         padding-left: 50px;
     }
     header .menu ul li a{
-        font-size: 16px;
+        font-size: 20px;
 }
 }
 @media(max-width:992px){
