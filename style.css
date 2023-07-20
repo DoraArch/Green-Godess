@@ -1018,7 +1018,9 @@ font-weight: bold;
     .navbar-links{
         display: none;
     }
-    
+    .content{
+        width: 100%;
+    }
 }
 @media(max-width:768px){
     header .navbar{
@@ -1040,6 +1042,7 @@ font-weight: bold;
 @media(max-width:600px){
 html{
     font-size: 50%;
+    width: unset;
 }
 }
 
