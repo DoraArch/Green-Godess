@@ -2,6 +2,7 @@
 <html>
    
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-... " crossorigin="anonymous">
     <title>GREEN GODDESS</title>
@@ -77,24 +78,24 @@
                 </li>
             </ul>
         </div>
-        <div class="dropdown_menu">
-            <li><a href="index.html">HOME</a></li>
-                <li><a href="contact.html">CONTACT</a>
-        </div>
     </header>
     <script>
-        const checkbtn=document.queryselector('.check_btn')
-        const checkbtnicon=document.queryselector('.check_btn i')
-        const dropdownmenu=document.queryselector('.dropdown_menu')
+        function scrollToSection(event) {
+    event.preventDefault();
+    const target = event.target.getAttribute('href');
+    const section = document.querySelector(target);
+    const offset = section.offsetTop;
 
-        checkbtn.onclick=function(){
-            dropdownmenu.classlist.check('open')
-            const isopen=dropdownmenu.classlist.contains('open')
+    window.scroll({
+      top: offset,
+      behavior: 'smooth'
+    });
+  }
 
-            checkbtn.classlist=isopen
-            ?'fa fa-xmark'
-            :'fa fa-bars'
-        }
+  const menuLinks = document.querySelectorAll('menu ul li a');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', scrollToSection);
+  });
     </script>
     
     <br.<br><br>
