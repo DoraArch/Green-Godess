@@ -1009,12 +1009,12 @@ font-weight: bold;
 
 
 
-@media(max-width:991px){
+@media(max-width:1000px){
     html{
         font-size:55%
     }
     header{
-        padding:50px
+        padding: 100px;
     }
 }
 @media(max-width:768px){
