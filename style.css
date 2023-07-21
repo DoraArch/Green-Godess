@@ -153,6 +153,9 @@ header .menu ul li:hover .sub-menu-1 ul li:last-child{
 section{
     padding: 2rem 9%;
 }
+span{
+    color: #0be881;
+}
 .search{
     border-color: black;
     margin-right: 5rem;
