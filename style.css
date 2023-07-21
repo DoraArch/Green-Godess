@@ -1040,6 +1040,11 @@ font-weight: bold;
     }
 header #toggler:checked ~ .navbar{
     clip-path: polygon(0 0, 100% 0, 100% 0,0 0);
+    left: 0;
+}
+.search{
+    margin-left: 50px;
+    width: 200px;
 }
     header .navbar a{
         margin: 20px;
@@ -1075,7 +1080,7 @@ html{
 }
 }
 @media(max-width:992px){
-header .checkbtn{
+header .tonggler{
     display: block;
 }
 ul{
@@ -1101,9 +1106,6 @@ a:hover,a.active{
     background: none;
     color: rgb(186, 240, 185);
 }
-#check:checked~ul{
-    left: 0;
-}
 }
 @media(max-width:1000px){
     .coontent{
@@ -1113,12 +1115,6 @@ a:hover,a.active{
  @media(max-width:750px)   {
     .coontent{
         width: 100%;
-    }
- }
-@media(max-width:576px){
-    .dropdown_menu{
-        left: 20px;
-        width: unset;
     }
 }
 
